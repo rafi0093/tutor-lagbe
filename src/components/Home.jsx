@@ -7,7 +7,7 @@ const Home = () => {
     <div className="bg-gradient-to-b from-purple-50 to-white min-h-[90vh] flex flex-col items-center justify-center px-4 text-center py-12">
       {/* Welcome Notice */}
       <h1 className="text-3xl sm:text-4xl font-bold text-purple-700 mb-4 leading-snug">
-        স্বাগতম "Tutor Lagba" অ্যাপে! 📚
+        স্বাগতম "Tutor Lagbe" অ্যাপে! 📚
       </h1>
 
       <p className="text-gray-700 text-base sm:text-lg max-w-2xl">
