@@ -13,10 +13,10 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <Link to="/" className="hover:underline">🏠হোম </Link>
-          <Link to="/register" className="hover:underline">📝রেজিস্ট্রেশন </Link>
-          <Link to="/tutors" className="hover:underline">👨‍🏫টিউটর তালিকা </Link>
-          <Link to="/students" className="hover:underline">👩‍🎓স্টুডেন্ট তালিকা </Link>
+          <Link to="/" className="hover:underline">🏠 হোম</Link>
+          <Link to="/register" className="hover:underline">📝 রেজিস্ট্রেশন</Link>
+          <Link to="/tutors" className="hover:underline">👨‍🏫 টিউটর তালিকা</Link>
+          <Link to="/students" className="hover:underline">👩‍🎓 স্টুডেন্ট তালিকা</Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -33,16 +33,16 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden px-6 pb-4 space-y-2 bg-purple-600">
           <Link to="/" className="block hover:underline" onClick={() => setIsOpen(false)}>
-          🏠হোম 
+            🏠 হোম
           </Link>
           <Link to="/register" className="block hover:underline" onClick={() => setIsOpen(false)}>
-          📝রেজিস্ট্রেশন 
+            📝 রেজিস্ট্রেশন
           </Link>
           <Link to="/tutors" className="block hover:underline" onClick={() => setIsOpen(false)}>
-          👨‍🏫টিউটর তালিকা 
+            👨‍🏫 টিউটর তালিকা
           </Link>
           <Link to="/students" className="block hover:underline" onClick={() => setIsOpen(false)}>
-          👩‍🎓স্টুডেন্ট তালিকা 
+            👩‍🎓 স্টুডেন্ট তালিকা
           </Link>
         </div>
       )}
