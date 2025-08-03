@@ -17,6 +17,7 @@ const Navbar = () => {
           <Link to="/register" className="hover:underline">📝 রেজিস্ট্রেশন</Link>
           <Link to="/tutors" className="hover:underline">👨‍🏫 টিউটর তালিকা</Link>
           <Link to="/students" className="hover:underline">👩‍🎓 স্টুডেন্ট তালিকা</Link>
+          <Link to="/search" className="hover:underline">🔍 সার্চ</Link> {/* ✅ নতুন লিংক */}
         </div>
 
         {/* Mobile Menu Button */}
@@ -44,6 +45,9 @@ const Navbar = () => {
           <Link to="/students" className="block hover:underline" onClick={() => setIsOpen(false)}>
             👩‍🎓 স্টুডেন্ট তালিকা
           </Link>
+          <Link to="/search" className="block hover:underline" onClick={() => setIsOpen(false)}>
+            🔍 সার্চ
+          </Link> {/* ✅ Mobile menu তেও নতুন লিংক */}
         </div>
       )}
     </nav>
