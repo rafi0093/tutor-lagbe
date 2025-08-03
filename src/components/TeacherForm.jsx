@@ -15,6 +15,7 @@ const TeacherForm = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
 
+    console.log(`Field changed: ${name}, New value: ${value}`); // Debugging log
     setFormData((prev) => ({
       ...prev,
       [name]: value,

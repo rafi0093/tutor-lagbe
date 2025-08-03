@@ -16,6 +16,7 @@ const StudentForm = () => {
       ...prev,
       [e.target.name]: e.target.value,
     }));
+    console.log(`Field changed: ${e.target.name}, New value: ${e.target.value}`); // Debugging log
   };
 
   const handleSubmit = (e) => {
@@ -37,7 +38,7 @@ const StudentForm = () => {
   return (
     <div className="bg-purple-50 shadow-lg rounded-xl p-6 max-w-xl mx-auto mt-6">
       <h2 className="text-2xl font-bold text-purple-700 mb-4 text-center">
-        👩‍🎓 ছাত্র রেজিস্ট্রেশন ফর্ম
+      🎓 ছাত্র/ছাত্রী রেজিস্ট্রেশন ফর্ম
       </h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input

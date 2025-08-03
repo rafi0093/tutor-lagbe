@@ -5,10 +5,7 @@ import Home from "./components/Home";
 import RegisterPage from "./components/RegisterPage";
 import TutorList from "./components/TutorList";
 import StudentList from "./components/StudentList";
-import Footer from "./components/Footer";
-
-// 🔍 নতুন Import
-import Search from "./pages/Search"; 
+import Footer from "./components/Footer"; // ✅ Footer import
 
 const App = () => {
   return (
@@ -24,7 +21,6 @@ const App = () => {
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/tutors" element={<TutorList />} />
             <Route path="/students" element={<StudentList />} />
-            <Route path="/search" element={<Search />} /> {/* 🔍 Search Route */}
           </Routes>
         </div>
 
