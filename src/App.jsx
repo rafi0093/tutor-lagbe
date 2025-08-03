@@ -8,7 +8,7 @@ import StudentList from "./components/StudentList";
 import Footer from "./components/Footer";
 
 // 🔍 নতুন Import
-import Search from "./pages/Search"; // যদি তুমি components এর মধ্যে রেখো, তাহলে "./components/Search" লেখো
+import Search from "./pages/Search"; 
 
 const App = () => {
   return (
